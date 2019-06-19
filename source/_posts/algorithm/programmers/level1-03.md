@@ -1,5 +1,5 @@
 ---
-title: K번째수
+title: 프로그래머스 - K번째수
 categories:
   - Algorithm
   - Programmers
@@ -7,6 +7,7 @@ categories:
 tags:
   - Algorithm
   - Programmers
+  - 프로그래머스
 date: 2019-06-12 00:08:20
 ---
 
@@ -30,25 +31,29 @@ date: 2019-06-12 00:08:20
 - array의 각 원소는 1 이상 100 이하입니다.
 - commands의 길이는 1 이상 50 이하입니다.
 - commands의 각 원소는 길이가 3입니다.
-<br/>
+
+<!-- more -->
 <br/>
 
 ## 입출력 예
 | array |	commands | return |
-|---|:---:|:---:|
+| ---| :---: | :---: |
 | [1, 5, 2, 6, 3, 7, 4] | [[2, 5, 3], [4, 4, 1], [1, 7, 3]] |	`[5, 6, 3]` |
+
+<br/>
 
 ### 입출력 예 설명
 - [1, 5, 2, 6, 3, 7, 4]를 2번째부터 5번째까지 자른 후 정렬합니다. [2, 3, 5, 6]의 세 번째 숫자는 5입니다.
 - [1, 5, 2, 6, 3, 7, 4]를 4번째부터 4번째까지 자른 후 정렬합니다. [6]의 첫 번째 숫자는 6입니다.
 - [1, 5, 2, 6, 3, 7, 4]를 1번째부터 7번째까지 자릅니다. [1, 2, 3, 4, 5, 6, 7]의 세 번째 숫자는 3입니다.
-<br/>
+
 <br/>
 
 ---
 
-```javascript
+### Solution 
 
+```javascript
 function solution(array, commands) {
     return commands.reduce((target, commans) => {
         target.push((array.slice(commans[0]-1, commans[1]).sort((a, b) => a - b))[commans[2]-1]);
@@ -56,5 +61,4 @@ function solution(array, commands) {
         return target;
     }, [])
 }
-
 ```
