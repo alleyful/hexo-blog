@@ -14,6 +14,7 @@ date: 2019-06-15 13:01:34
 
 In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -26,21 +27,26 @@ Given an integer, **n**, perform the following conditional actions:
 
 Complete the stub code provided in your editor to print whether or not  is weird.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single line containing a positive integer, **n**.
 
+<br/>
 
 ## Constraints
    
 - **1 <= n <= 100**
 
+<br/>
 
 ## Output Format
 
 Print Weird if the number is weird; otherwise, print Not Weird.
 
+<br/>
 
 ## Sample Input 0
 
@@ -48,12 +54,14 @@ Print Weird if the number is weird; otherwise, print Not Weird.
 3
 ```
 
+<br/>
 
-##Sample Output 0
+## Sample Output 0
 
 ```
 Weird
 ```
+<br/>
 
 ## Sample Input 1
 
@@ -61,13 +69,15 @@ Weird
 24
 ```
 
+<br/>
 
-##Sample Output 1
+## Sample Output 1
 
 ```
 Not Weird
 ```
 
+<br/>
 
 ## Explanation
 
@@ -83,7 +93,7 @@ Sample Case 1: **n = 24**
 
 ---
 
-## Solution 1
+### Solution 1
 
 ```javascript
 
@@ -106,7 +116,7 @@ function main() {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
 

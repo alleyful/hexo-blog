@@ -14,6 +14,8 @@ date: 2019-06-16 18:49:34
 
 Today, we're delving into Inheritance. Check out the attached tutorial for learning materials and an instructional video!
 
+<br/>
+
 ## Task
 
 You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
@@ -31,6 +33,8 @@ Complete the Student class by writing the following:
 
 ![Grading Scale](https://s3.amazonaws.com/hr-challenge-images/17165/1458142706-3073bc9143-Grading.png)
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -39,6 +43,7 @@ The locked stub code in your editor calls your Student class constructor and pas
 You are not responsible for reading the following input from stdin: 
 The first line contains **firstName**, **lastName**, and **id**, respectively. The second line contains the number of test scores. The third line of space-separated integers describes **scores**.
 
+<br/>
 
 ## Constraints
    
@@ -46,11 +51,13 @@ The first line contains **firstName**, **lastName**, and **id**, respectively. T
 - **|id| = 7**
 - **0 <= score,average <= 100**
 
+<br/>
 
 ## Output Format
 
 This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.
 
+<br/>
 
 ## Sample Input
 
@@ -60,6 +67,7 @@ Heraldo Memelli 8135627
 100 80
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -69,6 +77,7 @@ Heraldo Memelli 8135627
  Grade: O
 ```
 
+<br/>
 
 ## Explanation
 
@@ -80,10 +89,9 @@ This student had **2** scores to average: **100** and **80**. The student's aver
 ---
 
 
-## Solution 1
+### Solution 1
 
 ```javascript
-
 class Student extends Person {
     constructor(firstName, lastName, id, scores) {
         super(firstName, lastName, id, scores);
@@ -132,10 +140,9 @@ class Student extends Person {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
-
 class Student extends Person {
     constructor(firstName, lastName, idNumber, testScores) {
         super(firstName, lastName, idNumber);

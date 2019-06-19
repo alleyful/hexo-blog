@@ -14,6 +14,7 @@ date: 2019-06-16 23:30:34
 
 Today, we're going further with Binary Search Trees. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,6 +22,8 @@ A level-order traversal, also known as a breadth-first search, visits each level
 
 **Hint:** You'll find a queue helpful in completing this challenge.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -28,11 +31,13 @@ The locked stub code in your editor reads the following inputs and assembles the
 The first line contains an integer, **T** (the number of test cases). 
 The **T** subsequent lines each contain an integer, **data**, denoting the value of an element that must be added to the BST.
 
+<br/>
 
 ## Output Format
 
 Print the **data** value of each node in the tree's level-order traversal as a single line of **N** space-separated integers.
 
+<br/>
 
 ## Sample Input
 
@@ -46,12 +51,15 @@ Print the **data** value of each node in the tree's level-order traversal as a s
 1
 ```
 
+<br/>
+
 ## Sample Output
 
 ```
 3 2 5 1 4 7 
 ```
 
+<br/>
 
 ## Explanation
 
@@ -67,7 +75,7 @@ We traverse each level of the tree from the root downward, and we process the no
 
 ---
 
-## Solution 1
+### Solution 1
 
 ```javascript
 // Add your code here
@@ -88,7 +96,7 @@ console.log(result.join(' '));
 
 ```
 
-## Solution 2
+### Solution 2
 ```javascript
 // Start of function Node
 function Node(data) {

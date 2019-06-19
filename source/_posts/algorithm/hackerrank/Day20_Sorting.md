@@ -14,8 +14,7 @@ date: 2019-06-16 22:01:03
 
 Today, we're discussing a simple sorting algorithm called Bubble Sort. Check out the Tutorial tab for learning materials and an instructional video!
 
----
-Consider the following version of Bubble Sort:
+### Consider the following version of Bubble Sort:
 
 ```
 for (int i = 0; i < n; i++) {
@@ -37,6 +36,8 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<br/>
+
 ## Task
 
 Given an array, **a**, of size **n** distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following **3** lines:
@@ -50,18 +51,22 @@ where **lastElement** is the last element in the sorted array.
 
 **Hint:** To complete this challenge, you will need to add a variable that keeps a running tally of all swaps that occur during execution.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 The first line contains an integer, **n**, denoting the number of elements in array **a**. 
 The second line contains **n** space-separated integers describing the respective values of **a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>**.
 
+<br/>
 
 ## Constraints
 
 - **2 <= n <= 600**
 - **1 <= a<sub>i</sub> <= 2 X 10<sup>6</sup>, where 0 <= i < n**
 
+<br/>
 
 ## Output Format
 
@@ -74,6 +79,7 @@ where **firstElement** is the first element in the sorted array.
 3. Last Element: lastElement 
 where **lastElements** is the last element in the sorted array.
 
+<br/>
 
 ## Sample Input 0
 
@@ -81,6 +87,8 @@ where **lastElements** is the last element in the sorted array.
 3
 1 2 3
 ```
+
+<br/>
 
 ## Sample Output 0
 
@@ -90,11 +98,13 @@ First Element: 1
 Last Element: 3
 ```
 
+<br/>
 
 ## Explanation 0
 
 The array is already sorted, so **0** swaps take place and we print the necessary **3** lines of output shown above.
 
+<br/>
 
 ## Sample Input 1
 
@@ -103,6 +113,8 @@ The array is already sorted, so **0** swaps take place and we print the necessar
 3 2 1
 ```
 
+<br/>
+
 ## Sample Output 1
 
 ```
@@ -110,6 +122,8 @@ Array is sorted in 3 swaps.
 First Element: 1
 Last Element: 3
 ```
+
+<br/>
 
 ## Explanation 1
 
@@ -125,7 +139,7 @@ At this point the array is sorted and we print the necessary **3** lines of outp
 
 ---
 
-## Solution 1
+### Solution 1
 
 ```javascript
 function main() {
@@ -164,7 +178,7 @@ function main() {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
 function main() {

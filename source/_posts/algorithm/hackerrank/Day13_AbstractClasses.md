@@ -10,11 +10,11 @@ tags:
 date: 2019-06-16 19:20:34
 ---
 
-# Day 13: Abstract Classes
 ## Objective
 
 Today, we're taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to the few languages that use this construct. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -34,11 +34,14 @@ Given a Book class and a Solution class, write a MyBook class that does the foll
 
 **Note:** Because these classes are being written in the same file, you must not use an access modifier (e.g.: **public**) when declaring MyBook or your code will not execute.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object.
 
+<br/>
 
 ## Output Format
 
@@ -52,6 +55,7 @@ Price: $price
 
 **Note:** The **$** is prepended to variable names to indicate they are placeholders for variables.
 
+<br/>
 
 ## Sample Input
 
@@ -63,6 +67,7 @@ Paulo Coelho
 248
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -79,12 +84,9 @@ Price: 248
 
 ---
 
-## Solution
-
+### Solution
 
 ```javascript
-
-// Declare your class here.
 class MyBook extends Book {
 
     /**   

@@ -14,6 +14,7 @@ date: 2019-06-15 19:01:34
 
 Today, we're learning about Key-Value pair mappings using a Map or Dictionary data structure. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,6 +22,8 @@ Given **n** names and phone numbers, assemble a phone book that maps friends' na
 
 **Note:** Your phone book should be a Dictionary/Map/HashMap data structure.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -31,17 +34,20 @@ After the **n** lines of phone book entries, there are an unknown number of line
 
 **Note:** Names consist of lowercase English alphabetic letters and are first names only.
 
+<br/>
 
 ## Constraints
    
 - **1 <= n <= 10<sup>5</sup>**
 - **1 <= queries <= 10<sup>5</sup>**
 
+<br/>
 
 ## Output Format
 
 On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full **name** and **phoneNumber** in the format name=phoneNumber.
 
+<br/>
 
 ## Sample Input
 
@@ -55,6 +61,7 @@ edward
 harry
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -63,6 +70,8 @@ sam=99912222
 Not found
 harry=12299933
 ```
+
+<br/>
 
 ## Explanation
 
@@ -87,10 +96,9 @@ Harry is one of the keys in our dictionary, so we print harry=12299933.
 ---
 
 
-## Solution 1
+### Solution 1
 
 ```javascript
-
 function processData(input) {
     //Enter your code here
     const { phoneBook, queries } = input.split('\n').reduce((target, item, index) => {
@@ -117,10 +125,9 @@ function processData(input) {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
-
 function processData(input) {
     //Enter your code here
     const inputData = input.split('\n');
@@ -140,10 +147,9 @@ function processData(input) {
 ```
 
 
-## Solution 3
+### Solution 3
 
 ```javascript
-
 function processData(input) {
     //Enter your code here
     const splitInput = input.split("\n");

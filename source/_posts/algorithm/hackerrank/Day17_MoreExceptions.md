@@ -14,6 +14,7 @@ date: 2019-06-16 21:08:18
 
 Yesterday's challenge taught you to manage exceptional situations by using try and catch blocks. In today's challenge, you're going to practice throwing and propagating an exception. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,21 +22,26 @@ Write a Calculator class with a single method: int power(int,int). The power met
 
 **Note:** Do not use an access modifier (e.g.: public) in the declaration for your Calculator class.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 Input from stdin is handled for you by the locked stub code in your editor. The first line contains an integer, **T**, the number of test cases. Each of the **T** subsequent lines describes a test case in **2** space-separated integers denoting **n** and **p**, respectively.
 
+<br/>
 
 ## Constraints
 
 - No Test Case will result in overflow for correctly written code.
 
+<br/>
 
 ## Output Format
 
 Output to stdout is handled for you by the locked stub code in your editor. There are **T** lines of output, where each line contains the result of **n<sup>p</sup>** as calculated by your Calculator class' power method.
 
+<br/>
 
 ## Sample Input
 
@@ -47,6 +53,8 @@ Output to stdout is handled for you by the locked stub code in your editor. Ther
 -1 3
 ```
 
+<br/>
+
 ## Sample Output
 
 ```
@@ -55,6 +63,8 @@ Output to stdout is handled for you by the locked stub code in your editor. Ther
 n and p should be non-negative
 n and p should be non-negative
 ```
+
+<br/>
 
 ## Explanation
 
@@ -65,10 +75,11 @@ n and p should be non-negative
 **T<sub>3</sub>**: One of the inputs (**-1**) is negative, so power throws an exception and **n and p should be non-negative** is printed.
 
 <br/>
+<br/>
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 /*

@@ -14,6 +14,7 @@ date: 2019-06-16 20:05:46
 
 Today, we're getting started with Exceptions by learning how to parse an integer from a string and print a custom error message. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,22 +22,27 @@ Read a string, **S**, and print its integer value; if **S** cannot be converted 
 
 **Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a **0** score.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single string, **S**.
 
+<br/>
 
 ## Constraints
 
 - **1 <= |S| <= 6, where |S| is the length of string S.**
 - **S is composed of either lowercase letters (a - z) or decimal digits (0 - 9).**
 
+<br/>
 
 ## Output Format
 
 Print the parsed integer value of **S**, or Bad String if **S** cannot be converted to an integer.
 
+<br/>
 
 ## Sample Input 0
 
@@ -44,11 +50,15 @@ Print the parsed integer value of **S**, or Bad String if **S** cannot be conver
 3
 ```
 
+<br/>
+
 ## Sample Output 0
 
 ```
 3
 ```
+
+<br/>
 
 ## Sample Input 1
 
@@ -56,12 +66,15 @@ Print the parsed integer value of **S**, or Bad String if **S** cannot be conver
 za
 ```
 
+<br/>
+
 ## Sample Output 1
 
 ```
 Bad String
 ```
 
+<br/>
 
 ## Explanation
 
@@ -73,7 +86,7 @@ Sample Case **1** does not contain any integers, so an attempt to convert it to 
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 /*

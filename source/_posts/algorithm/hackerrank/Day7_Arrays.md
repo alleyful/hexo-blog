@@ -14,28 +14,34 @@ date: 2019-06-15 17:01:34
 
 Today, we're learning about the Array data structure. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
+
 ## Task
 
 Given an array, **A**, of **N** integers, print **A**'s elements in reverse order as a single line of space-separated numbers.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 The first line contains an integer, **N** (the size of our array). 
 The second line contains **N** space-separated integers describing array **A**'s elements.
 
+<br/>
 
 ## Constraints
    
 - **1 <= N <= 1000**
 - **1 <= A<sub>i</sub> <= 10000**, where **Ai** is the **i<sup>th</sup>** integer in the array.
 
+<br/>
 
 ## Output Format
 
 Print the elements of array **A** in reverse order as a single line of space-separated numbers.
 
-
+<br/>
 
 ## Sample Input
 
@@ -44,6 +50,7 @@ Print the elements of array **A** in reverse order as a single line of space-sep
 1 4 3 2
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -55,8 +62,6 @@ Print the elements of array **A** in reverse order as a single line of space-sep
 <br/>
 
 ---
-
-## Solutions
 
 ### Solution 1
 

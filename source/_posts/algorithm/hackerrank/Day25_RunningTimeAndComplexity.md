@@ -14,6 +14,7 @@ date: 2019-06-17 09:40:03
 
 Today we're learning about running time! Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,23 +22,28 @@ A prime is a natural number greater than **1** that has no positive divisors oth
 
 **Note:** If possible, try to come up with a ![](https://latex.codecogs.com/svg.latex?O\sqrt{n}) primality algorithm, or see what sort of optimizations you come up with for an **![](https://latex.codecogs.com/svg.latex?O\sqrt{n})** algorithm. Be sure to check out the Editorial after submitting your code!
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 The first line contains an integer, **T**, the number of test cases. 
 Each of the **T** subsequent lines contains an integer, **n**, to be tested for primality.
 
+<br/>
 
 ## Constraints
 
 - 1 <= T <= 30
 - 1 <= n <= 2 X 10<sup>9</sup>
 
+<br/>
 
 ## Output Format
 
 For each test case, print whether **n** is **Prime** or **Not prime** on a new line.
 
+<br/>
 
 ## Sample Input
 
@@ -48,6 +54,8 @@ For each test case, print whether **n** is **Prime** or **Not prime** on a new l
 7
 ```
 
+<br/>
+
 ## Sample Output
 
 ```
@@ -56,6 +64,7 @@ Prime
 Prime
 ```
 
+<br/>
 
 ## Explanation
 
@@ -72,8 +81,6 @@ Test Case 2: **n = 7**. <br/>
 <br/>
 
 ---
-
-## Solutions
 
 ### Solution 1
 

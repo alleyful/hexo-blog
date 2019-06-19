@@ -18,28 +18,35 @@ Today, we're learning and practicing an algorithmic concept called Recursion. Ch
 
 ![Recursive Method for Calculating Factorial](https://latex.codecogs.com/svg.latex?factorial(N)&space;=&space;\begin{cases}&space;1&space;&&space;\text{&space;}&space;N\leq&space;1&space;\\&space;N&space;\times&space;factorial(N&space;-&space;1)&space;&&space;\text{}&space;otherwise&space;\end{cases})
 
+<br/>
+
 ## Task
 
 Write a factorial function that takes a positive integer, **N** as a parameter and prints the result of **N!** (**N** factorial).
 
 **Note:** If you fail to use recursion or fail to name your recursive function factorial or Factorial, you will get a score of **0**.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single integer, **N** (the argument to pass to factorial).
 
+<br/>
 
 ## Constraints
    
 - **2 <= N <= 12**
 - Your submission must contain a recursive function named factorial.
 
+<br/>
 
 ## Output Format
 
 Print a single integer denoting **N!**.
 
+<br/>
 
 ## Sample Input
 
@@ -47,12 +54,14 @@ Print a single integer denoting **N!**.
 3
 ```
 
+<br/>
 
 ## Sample Output
 
 ```
 6
 ```
+<br/>
 
 ## Explanation
 
@@ -70,30 +79,25 @@ From steps **2** and **3**, we can say **factorial(2) = 2 X 1 = 2**; then when w
 
 ---
 
-## Solutions 1
+### Solutions 1
 
 ```javascript
-
 function factorial(n) {
     return n < 2 ? 1 : n * factorial(n - 1);
 }
-
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
-
 function factorial(n) {
     return (!+n) ? 1 : n * factorial(n - 1);
 }
-
 ```
 
-## Solution 3
+### Solution 3
 
 ```javascript
-
 let memoization = [0, 1];
 
 const factorial = (n) => {

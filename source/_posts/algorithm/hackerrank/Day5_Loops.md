@@ -14,24 +14,33 @@ date: 2019-06-15 15:01:34
 
 In this challenge, we're going to use loops to help us do some simple math. Check out the Tutorial tab to learn more.
 
+<br/>
+
 ## Task
 
 Given an integer, **n**, print its first **10** multiples. Each multiple **n x i** (where **1 <= i <= 10**) should be printed on a new line in the form: n x i = result.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single integer, **n**.
 
+<br/>
+
 ## Constraints
    
 - **2 <= n <= 20**
 
+<br/>
 
 ## Output Format
 
 Print **10** lines of output; each line **i** (where **1 <= i <= 10**) contains the **result** of **n x i** in the form: 
 n x i = result.
+
+<br/>
 
 ## Sample Input
 
@@ -39,8 +48,9 @@ n x i = result.
 2
 ```
 
+<br/>
 
-##Sample Output
+## Sample Output
 
 ```
 2 x 1 = 2
@@ -60,7 +70,7 @@ n x i = result.
 
 ---
 
-## Solution 1
+### Solution 1
 ```javascript
 function main() {
     const n = parseInt(readLine(), 10);
@@ -73,7 +83,7 @@ function main() {
 ```
 
 
-## Solution 2
+### Solution 2
 
 ```javascript
 

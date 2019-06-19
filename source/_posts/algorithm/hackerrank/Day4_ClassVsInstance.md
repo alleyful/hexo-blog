@@ -14,6 +14,7 @@ date: 2019-06-15 14:01:34
 
 In this challenge, we're going to learn about the difference between a class and an instance; because this is an Object Oriented concept, it's only enabled in certain languages. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -28,6 +29,8 @@ To help you learn by example and complete this challenge, much of the code is pr
 
 **Note:** Do not remove or alter the stub code in the editor.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -35,17 +38,20 @@ Input is handled for you by the stub code in the editor.
 
 The first line contains an integer, **T** (the number of test cases), and the **T** subsequent lines each contain an integer denoting the **age** of a Person instance.
 
+<br/>
 
 ## Constraints
    
 - **1 <= T <= 4**
 - **-5 <= age <= 30**
 
+<br/>
 
 ## Output Format
 
 Complete the method definitions provided in the editor so they meet the specifications outlined above; the code to test your work is already in the editor. If your methods are implemented correctly, each test case will print **2** or **3** lines (depending on whether or not a valid **initialAge** was passed to the constructor).
 
+<br/>
 
 ## Sample Input
 
@@ -57,8 +63,9 @@ Complete the method definitions provided in the editor so they meet the specific
 18
 ```
 
+<br/>
 
-##Sample Output
+## Sample Output
 
 ```
 Age is not valid, setting age to 0.
@@ -75,6 +82,7 @@ You are old.
 You are old.
 ```
 
+<br/>
 
 ## Explanation
 
@@ -97,7 +105,7 @@ Because **initialAge >= 18**, our code should print that the person is old. Thre
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 

@@ -14,26 +14,32 @@ date: 2019-06-16 01:01:34
 
 Today, we're working with binary numbers. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
 Given a base-**10** integer, **n**, convert it to binary (base-**2**). Then find and print the base-**10** integer denoting the maximum number of consecutive **1**'s in **n**'s binary representation.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single integer, **n**.
 
+<br/>
 
 ## Constraints
    
 - **1 <= n <= 10<sup>6</sup>**
 
+<br/>
 
 ## Output Format
 
 Print a single base-**10** integer denoting the maximum number of consecutive **1**'s in the binary representation of **n**.
 
+<br/>
 
 ## Sample Input 1
 
@@ -41,6 +47,7 @@ Print a single base-**10** integer denoting the maximum number of consecutive **
 5
 ```
 
+<br/>
 
 ## Sample Output 1
 
@@ -48,18 +55,23 @@ Print a single base-**10** integer denoting the maximum number of consecutive **
 1
 ```
 
+<br/>
+
 ## Sample Input 2
 
 ```
 13
 ```
 
+<br/>
 
 ## Sample Output 2
 
 ```
 2
 ```
+
+<br/>
 
 ## Explanation
 
@@ -75,7 +87,7 @@ The binary representation of **13** is **1101**, so the maximum number of consec
 ---
 
 
-## Solution 1
+### Solution 1
 
 ```javascript
 function main() {
@@ -102,7 +114,7 @@ function main() {
 }
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
 function main() {
@@ -124,7 +136,7 @@ function main() {
 ```
 
 
-## Solution 3
+### Solution 3
 
 ```javascript
 function main() {

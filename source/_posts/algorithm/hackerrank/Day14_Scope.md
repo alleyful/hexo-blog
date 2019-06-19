@@ -18,6 +18,7 @@ The absolute difference between two integers, **a** and **b**, is written as **|
 
 The Difference class is started for you in the editor. It has a private integer array (**elements**) for storing **N** non-negative integers, and a public integer (**maximumDifference**) for storing the maximum absolute difference.
 
+<br/>
 
 ## Task
 
@@ -26,21 +27,27 @@ Complete the Difference class by writing the following:
 - A class constructor that takes an array of integers as a parameter and saves it to the **elements** instance variable.
 - A computeDifference method that finds the maximum absolute difference between any **2** numbers in **N** and stores it in the **maximumDifference** instance variable.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in **2** lines of input; the first line contains **N**, and the second line describes the **elements** array.
 
+<br/>
 
 ## Constraints
    
 - **1 <= N <= 10**
 - **1 <= elements[i] <= 100, where 0 <= i <= N - 1**
 
+<br/>
+
 ## Output Format
 
 You are not responsible for printing any output; the Solution class will print the value of the **maximumDifference** instance variable.
 
+<br/>
 
 ## Sample Input
 
@@ -49,12 +56,15 @@ You are not responsible for printing any output; the Solution class will print t
 1 2 5
 ```
 
+<br/>
 
 ## Sample Output
 
 ```
 4
 ```
+
+<br/>
 
 ## Explanation
    
@@ -74,7 +84,7 @@ The maximum of these differences is **4**, so it saves the value **4** as the **
 ---
 
 
-## Solution 1
+### Solution 1
 
 ```javascript
 let input = "3\n1 2 5";
@@ -97,7 +107,7 @@ const difference = () => {
 difference();
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
 let input = "3\n1 2 5";

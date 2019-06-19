@@ -14,6 +14,8 @@ date: 2019-06-15 01:01:34
 
 Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
+
 ## Task
 
 Complete the code in the editor below. The variables **i**, **d**, and **s** are already declared and initialized for you. You must:
@@ -28,6 +30,8 @@ Complete the code in the editor below. The variables **i**, **d**, and **s** are
 
 **Note**: If you are using a language that doesn't support using **+** for string concatenation (e.g.: C), you can just print one variable immediately following the other on the same line. The string provided in your editor must be printed first, immediately followed by the string you read as input.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -35,11 +39,13 @@ The first line contains an integer that you must sum with **i**.
 The second line contains a double that you must sum with **d**. 
 The third line contains a string that you must concatenate with **s**.
 
+<br/>
 
 ## Output Format
 
 Print the sum of both integers on the first line, the sum of both doubles (scaled to **1** decimal place) on the second line, and then the two concatenated strings on the third line.
 
+<br/>
 
 ## Sample Input 0
 
@@ -49,8 +55,9 @@ Print the sum of both integers on the first line, the sum of both doubles (scale
 is the best place to learn and practice coding!
 ```
 
+<br/>
 
-##Sample Output 0
+## Sample Output 0
 
 ```
 16
@@ -58,6 +65,7 @@ is the best place to learn and practice coding!
 HackerRank is the best place to learn and practice coding!
 ```
 
+<br/>
 
 ## Explanation
 
@@ -72,7 +80,6 @@ When we concatenate HackerRank with is the best place to learn and practice codi
 
 ---
 
-## Solutions
 ### Solution 1
 
 ```javascript

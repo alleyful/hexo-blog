@@ -14,6 +14,7 @@ date: 2019-06-15 16:01:34
 
 Today we're expanding our knowledge of Strings and combining it with what we've already learned about loops. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,22 +22,28 @@ Given a string, **S**, of length **N** that is indexed from **0** to **N - 1**, 
 
 **Note: 0** is considered to be an even index.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 The first line contains an integer, **T** (the number of test cases). 
 Each line **i** of the **T** subsequent lines contain a String, **S**.
 
+<br/>
 
 ## Constraints
    
 - **1 <= T <= 10**
 - **2 <= length of S <= 10000**
 
+<br/>
 
 ## Output Format
 
 For each String **S<sub>j</sub>** (where **0 <= j <= T - 1**), print **S<sub>j</sub>**'s even-indexed characters, followed by a space, followed by **S<sub>j</sub>**'s odd-indexed characters.
+
+<br/>
 
 ## Sample Input
 
@@ -46,15 +53,17 @@ Hacker
 Rank
 ```
 
+<br/>
 
-##Sample Output
+## Sample Output
 
 ```
 Hce akr
 Rn ak
 ```
+<br/>
 
-##Explanation
+## Explanation
 
 Test Case 0: **S = "Hacker"**<br/>
 **S[0] = "H"**<br/>
@@ -81,7 +90,7 @@ The even indices are **0** and **2**, and the odd indices are **1** and **3**. W
 
 ---
 
-## Solution 1
+### Solution 1
 
 ```javascript
 function processData(input) {
@@ -102,7 +111,7 @@ function processData(input) {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
 

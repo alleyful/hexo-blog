@@ -14,6 +14,8 @@ date: 2019-06-16 18:24:41
 
 Today, we're building on our knowledge of Arrays by adding another dimension. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
+
 ## Context 
 
 Given a **6 X 6** 2D Array, **A**:
@@ -37,28 +39,33 @@ e f g
 
 There are **16** hourglasses in **A**, and an hourglass sum is the sum of an hourglass' values.
 
+<br/>
 
 ## Task
 
 Calculate the hourglass sum for every hourglass in **A**, then print the maximum hourglass sum.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 There are **6** lines of input, where each line contains **6** space-separated integers describing 2D Array **A**; every value in **A** will be in the inclusive range of **-9** to **9**.
 
+<br/>
 
 ## Constraints
    
 - **-9 <= A[i][j] <= 9**
 - **0 <= i,j <= 5**
 
+<br/>
 
 ## Output Format
 
 Print the largest (maximum) hourglass sum found in **A**.
 
-
+<br/>
 
 ## Sample Input
 
@@ -71,6 +78,7 @@ Print the largest (maximum) hourglass sum found in **A**.
 0 0 1 2 4 0
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -78,6 +86,7 @@ Print the largest (maximum) hourglass sum found in **A**.
 19
 ```
 
+<br/>
 
 ## Explanation
 
@@ -114,10 +123,9 @@ The hourglass with the maximum sum (**19**) is:
 
 ---
 
-## Solution 1
+### Solution 1
 
 ```javascript
-
 function main() {
     let arr = Array(6);
 
@@ -143,10 +151,9 @@ function main() {
 
 ```
 
-## Solution 2
+### Solution 2
 
 ```javascript
-
 function main() {
      let arr = Array(6);
      let maxSum;
@@ -182,10 +189,9 @@ function main() {
  
 ```
 
-## Solution 3
+### Solution 3
 
 ```javascript
-
 function main() {
     let arr = Array(6);
 

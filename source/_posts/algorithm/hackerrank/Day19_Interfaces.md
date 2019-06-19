@@ -10,11 +10,11 @@ tags:
 date: 2019-06-16 21:53:20
 ---
 
-# Day 19: Interfaces
 ## Objective
 
 Today, we're learning about Interfaces. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -22,27 +22,34 @@ The AdvancedArithmetic interface and the method declaration for the abstract div
 
 Complete the implementation of Calculator class, which implements the AdvancedArithmetic interface. The implementation for the divisorSum(n) method must return the sum of all divisors of **n**.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single line containing an integer, **n**.
 
+<br/>
 
 ## Constraints
 
 - **1 <= n <= 1000**
 
+<br/>
 
 ## Output Format
 
 You are not responsible for printing anything to stdout. The locked template code in the editor below will call your code and print the necessary output.
 
+<br/>
 
 ## Sample Input
 
 ```
 6
 ```
+
+<br/>
 
 ## Sample Output
 
@@ -51,16 +58,18 @@ I implemented: AdvancedArithmetic
 12
 ```
 
+<br/>
 
 ## Explanation
 
 The integer **6** is evenly divisible by **1**, **2**, **3**, and **6**. Our divisorSum method should return the sum of these numbers, which is **1 + 2 + 3 + 6 = 12**. The Solution class then prints **I implemented: AdvancedArithmetic** on the first line, followed by the sum returned by divisorSum (which is **12**) on the second line.
 
 <br/>
+<br/>
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 /** It's not supported JavaScript so it create similar code **/

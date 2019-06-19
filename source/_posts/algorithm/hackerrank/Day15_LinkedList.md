@@ -18,6 +18,7 @@ A Node class is provided for you in the editor. A Node object has an integer dat
 
 A Node insert function is also declared in your editor. It has two parameters: a pointer, **head**, pointing to the first node of a linked list, and an integer **data** value that must be added to the end of the list as a new Node object.
 
+<br/>
 
 ## Task
 
@@ -25,6 +26,8 @@ Complete the insert function in your editor so that it creates a new Node (pass 
 
 **Note:** If the **head** argument passed to the insert function is null, then the initial list is empty.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -33,11 +36,13 @@ The constructor for Node has **1** parameter: an integer value for the **data** 
 
 You do not need to read anything from stdin.
 
+<br/>
 
 ## Output Format
 
 Your insert function should return a reference to the **head** node of the linked list.
 
+<br/>
 
 ## Sample Input
 
@@ -53,6 +58,7 @@ The **T** subsequent lines of test cases each contain an integer to be inserted 
 1
 ```
 
+<br/>
 
 ## Sample Output
 
@@ -61,6 +67,8 @@ The locked code in your editor prints the ordered data values for each element i
 ```
 2 3 4 1
 ```
+
+<br/>
 
 ## Explanation
    
@@ -74,7 +82,7 @@ The list is initially empty, so **head** is null; accounting for this, our code 
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 

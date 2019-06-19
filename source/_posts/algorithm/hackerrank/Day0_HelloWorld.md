@@ -14,6 +14,7 @@ date: 2019-06-15 00:01:34
 
 In this challenge, we review some basic concepts that will get you started with this series. You will need to use the same (or similar) syntax to read input and write output in challenges throughout HackerRank. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -23,16 +24,20 @@ You've got this!
 
 **Note**: The instructions are Java-based, but we support submissions in many popular languages. You can switch languages using the drop-down menu above your editor, and the **InputString** variable may be written differently depending on the best-practice conventions of your submission language.
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
 A single line of text denoting **inputString** (the variable whose contents must be printed).
 
+<br/>
 
 ## Output Format
 
 Print Hello, World. on the first line, and the contents of **inputString** on the second line.
 
+<br/>
 
 ## Sample Input 0
 
@@ -40,6 +45,7 @@ Print Hello, World. on the first line, and the contents of **inputString** on th
 Welcome to 30 Days of Code!
 ```
 
+<br/>
 
 ##Sample Output 0
 
@@ -48,6 +54,7 @@ Hello, World.
 Welcome to 30 Days of Code!
 ```
 
+<br/>
 
 ## Explanation
 
@@ -59,7 +66,7 @@ On the first line, we print the string literal Hello, World.. On the second line
 
 ---
 
-## Solution
+### Solution
 
 ```javascript
 

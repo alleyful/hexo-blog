@@ -14,6 +14,7 @@ date: 2019-06-15 12:01:34
 
 In this challenge, you'll work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video!
 
+<br/>
 
 ## Task
 
@@ -21,6 +22,8 @@ Given the meal price (base cost of a meal), tip percent (the percentage of the m
 
 **Note**: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
 
+<!-- more -->
+<br/>
 
 ## Input Format
 
@@ -29,11 +32,13 @@ The first line has a double, **mealCost** (the cost of the meal before tax and t
 The second line has an integer, **tipPercent** (the percentage of **mealCost** being added as tip). 
 The third line has an integer, **taxPercent** (the percentage of **mealCost** being added as tax).
 
+<br/>
 
 ## Output Format
 
 Print the total meal cost, where **totalCost** is the rounded integer result of the entire bill (**mealCost** with added tax and tip).
 
+<br/>
 
 ## Sample Input 0
 
@@ -43,6 +48,7 @@ Print the total meal cost, where **totalCost** is the rounded integer result of 
 8
 ```
 
+<br/>
 
 ##Sample Output 0
 
@@ -50,6 +56,7 @@ Print the total meal cost, where **totalCost** is the rounded integer result of 
 15
 ```
 
+<br/>
 
 ## Explanation
 
@@ -69,7 +76,7 @@ We round **totalCost** to the nearest dollar (integer) and then print our result
 
 ---
 
-## Solution 
+### Solution 
 
 ```javascript
 
