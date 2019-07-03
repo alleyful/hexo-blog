@@ -8,6 +8,8 @@ tags:
   - Algorithm
   - Programmers
   - 프로그래머스
+  - stack
+  - queue
 date: 2019-06-28 23:39:16
 ---
 
