@@ -1,5 +1,6 @@
 ---
 title: 프로그래머스 - 탑
+thumbnail: images/gallery/thumbnails/programmers.png
 categories:
   - Algorithm
   - Programmers
@@ -14,7 +15,6 @@ date: 2019-06-28 23:39:16
 ---
 
 
-## 문제 설명
 수평 직선에 탑 N대를 세웠습니다. 
 모든 `탑의 꼭대기에는 신호를 송/수신하는 장치`를 설치했습니다. 
 발사한 신호는 `신호를 보낸 탑보다 높은 탑에서만 수신`합니다. 

@@ -1,5 +1,6 @@
 ---
 title: Plus Minus
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank

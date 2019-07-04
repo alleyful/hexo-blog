@@ -1,5 +1,6 @@
 ---
 title: 프로그래머스 - 스킬트리
+thumbnail: images/gallery/thumbnails/programmers.png
 categories:
   - Algorithm
   - Programmers
@@ -12,7 +13,6 @@ date: 2019-06-26 22:53:39
 ---
 
 
-## 문제 설명
 선행 스킬이란 어떤 스킬을 배우기 전에 먼저 배워야 하는 스킬을 뜻합니다.
 
 예를 들어 선행 스킬 순서가 `스파크 → 라이트닝 볼트 → 썬더`일때, 썬더를 배우려면 먼저 라이트닝 볼트를 배워야 하고, 라이트닝 볼트를 배우려면 먼저 스파크를 배워야 합니다.

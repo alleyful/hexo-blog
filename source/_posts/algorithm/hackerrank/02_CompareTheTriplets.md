@@ -1,5 +1,6 @@
 ---
 title: Compare the Triplets
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank

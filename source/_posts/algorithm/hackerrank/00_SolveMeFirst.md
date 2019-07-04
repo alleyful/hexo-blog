@@ -1,5 +1,6 @@
 ---
 title: Solve Me First
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
