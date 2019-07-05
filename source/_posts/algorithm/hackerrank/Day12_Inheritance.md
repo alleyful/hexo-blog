@@ -1,5 +1,6 @@
 ---
 title: Day12 Inheritance
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 18:49:34
 Today, we're delving into Inheritance. Check out the attached tutorial for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -33,7 +35,6 @@ Complete the Student class by writing the following:
 
 ![Grading Scale](https://s3.amazonaws.com/hr-challenge-images/17165/1458142706-3073bc9143-Grading.png)
 
-<!-- more -->
 <br/>
 
 ## Input Format

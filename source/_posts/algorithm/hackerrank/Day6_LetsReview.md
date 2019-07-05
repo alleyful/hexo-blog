@@ -1,5 +1,6 @@
 ---
 title: Day6 Let's Review
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -22,8 +23,8 @@ Given a string, **S**, of length **N** that is indexed from **0** to **N - 1**, 
 
 **Note: 0** is considered to be an even index.
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 

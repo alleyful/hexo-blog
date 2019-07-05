@@ -1,5 +1,6 @@
 ---
 title: Day15 Linked List
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -19,6 +20,7 @@ A Node class is provided for you in the editor. A Node object has an integer dat
 A Node insert function is also declared in your editor. It has two parameters: a pointer, **head**, pointing to the first node of a linked list, and an integer **data** value that must be added to the end of the list as a new Node object.
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -26,7 +28,6 @@ Complete the insert function in your editor so that it creates a new Node (pass 
 
 **Note:** If the **head** argument passed to the insert function is null, then the initial list is empty.
 
-<!-- more -->
 <br/>
 
 ## Input Format

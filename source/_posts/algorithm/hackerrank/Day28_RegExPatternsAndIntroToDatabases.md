@@ -1,5 +1,6 @@
 ---
 title: Day28 RegEx, Patterns, and Intro to Databases
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -16,12 +17,12 @@ date: 2019-06-17 11:10:34
 Today, we're working with regular expressions. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task 
 
 Consider a database table, Emails, which has the attributes First Name and Email ID. Given  rows of data simulating the Emails table, print an alphabetically-ordered list of people whose email address ends in .
 
-<!-- more -->
 <br/>
 
 ## Input Format

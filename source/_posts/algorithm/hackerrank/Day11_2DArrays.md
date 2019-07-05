@@ -1,5 +1,6 @@
 ---
 title: Day11 2D Arrays
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 18:24:41
 Today, we're building on our knowledge of Arrays by adding another dimension. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Context 
 
@@ -45,7 +47,6 @@ There are **16** hourglasses in **A**, and an hourglass sum is the sum of an hou
 
 Calculate the hourglass sum for every hourglass in **A**, then print the maximum hourglass sum.
 
-<!-- more -->
 <br/>
 
 ## Input Format

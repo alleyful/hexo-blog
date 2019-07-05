@@ -1,5 +1,6 @@
 ---
 title: Day20 Sorting
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -13,6 +14,9 @@ date: 2019-06-16 22:01:03
 ## Objective
 
 Today, we're discussing a simple sorting algorithm called Bubble Sort. Check out the Tutorial tab for learning materials and an instructional video!
+
+<br/>
+<!-- more -->
 
 ### Consider the following version of Bubble Sort:
 
@@ -51,7 +55,6 @@ where **lastElement** is the last element in the sorted array.
 
 **Hint:** To complete this challenge, you will need to add a variable that keeps a running tally of all swaps that occur during execution.
 
-<!-- more -->
 <br/>
 
 ## Input Format

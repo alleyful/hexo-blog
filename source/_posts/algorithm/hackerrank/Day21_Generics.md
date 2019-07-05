@@ -1,5 +1,6 @@
 ---
 title: Day21 Generics
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 22:20:30
 Today we're discussing Generics; be aware that not all languages support this construct, so fewer languages are enabled for this challenge. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -22,7 +24,6 @@ Write a single generic function named printArray; this function must take an arr
 
 **Note:** You must use generics to solve this challenge. Do not write overloaded functions.
 
-<!-- more -->
 <br/>
 
 ## Input Format

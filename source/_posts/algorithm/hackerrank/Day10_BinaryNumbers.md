@@ -1,5 +1,6 @@
 ---
 title: Day10 Binary Numbers
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -20,8 +21,8 @@ Today, we're working with binary numbers. Check out the Tutorial tab for learnin
 
 Given a base-**10** integer, **n**, convert it to binary (base-**2**). Then find and print the base-**10** integer denoting the maximum number of consecutive **1**'s in **n**'s binary representation.
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 

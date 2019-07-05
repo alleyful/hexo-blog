@@ -1,5 +1,6 @@
 ---
 title: Day16 Exceptions - String to Integer
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 20:05:46
 Today, we're getting started with Exceptions by learning how to parse an integer from a string and print a custom error message. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -22,7 +24,6 @@ Read a string, **S**, and print its integer value; if **S** cannot be converted 
 
 **Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a **0** score.
 
-<!-- more -->
 <br/>
 
 ## Input Format

@@ -1,5 +1,6 @@
 ---
 title: Day26 Nested Logic
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-17 10:51:34
 Today's challenge puts your understanding of nested conditional statements to the test. You already have the knowledge to complete this challenge, but check out the Tutorial tab for a video on testing!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -25,7 +27,6 @@ Your local library needs your help! Given the expected and actual return dates f
 3. If the book is returned after the expected return month but still within the same calendar year as the expected return date, the **fine = 500 Hackos x (the number of months late)**.
 4. If the book is returned after the calendar year in which it was expected, there is a fixed fine of **10000 Hackos**.
 
-<!-- more -->
 <br/>
 
 ## Input Format

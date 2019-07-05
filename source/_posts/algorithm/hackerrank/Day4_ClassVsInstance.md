@@ -1,5 +1,6 @@
 ---
 title: Day4 Class vs. Instance
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-15 14:01:34
 In this challenge, we're going to learn about the difference between a class and an instance; because this is an Object Oriented concept, it's only enabled in certain languages. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -29,7 +31,6 @@ To help you learn by example and complete this challenge, much of the code is pr
 
 **Note:** Do not remove or alter the stub code in the editor.
 
-<!-- more -->
 <br/>
 
 ## Input Format

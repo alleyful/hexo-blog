@@ -1,5 +1,6 @@
 ---
 title: Day25 Running Time and Complexity
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-17 09:40:03
 Today we're learning about running time! Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -22,7 +24,6 @@ A prime is a natural number greater than **1** that has no positive divisors oth
 
 **Note:** If possible, try to come up with a ![](https://latex.codecogs.com/svg.latex?O\sqrt{n}) primality algorithm, or see what sort of optimizations you come up with for an **![](https://latex.codecogs.com/svg.latex?O\sqrt{n})** algorithm. Be sure to check out the Editorial after submitting your code!
 
-<!-- more -->
 <br/>
 
 ## Input Format

@@ -1,5 +1,6 @@
 ---
 title: Day2 Operators
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -22,8 +23,8 @@ Given the meal price (base cost of a meal), tip percent (the percentage of the m
 
 **Note**: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 

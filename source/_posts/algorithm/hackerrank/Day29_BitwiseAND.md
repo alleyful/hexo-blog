@@ -1,5 +1,6 @@
 ---
 title: Day29 Bitwise AND
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,12 +16,12 @@ date: 2019-06-17 12:01:34
 Welcome to the last day! Today, we're discussing bitwise operations. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task 
 Given set ![](https://latex.codecogs.com/svg.latex?S=\left&space;\{1,2,3,...,N&space;\right&space;\}). Find two integers,  A and B (where A < B ), from set S such that the value of A & B is the maximum possible and also less than a given integer, K.
 In this case, & represents the bitwise AND operator.
 
-<!-- more -->
 <br/>
 
 ## Input Format

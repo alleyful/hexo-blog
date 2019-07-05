@@ -15,6 +15,7 @@ date: 2019-06-27 22:55:10
 Complete the function solveMeFirst to compute the sum of two integers.
 
 <br/>
+<!-- more -->
 
 ## Function prototype:
 
@@ -26,7 +27,6 @@ where,
 - b is the second integer input
 
 <br/>
-<!-- more -->
 
 ## Return values
 

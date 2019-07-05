@@ -1,5 +1,6 @@
 ---
 title: Day3 Intro to Conditional Statements
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-15 13:01:34
 In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -27,7 +29,6 @@ Given an integer, **n**, perform the following conditional actions:
 
 Complete the stub code provided in your editor to print whether or not  is weird.
 
-<!-- more -->
 <br/>
 
 ## Input Format

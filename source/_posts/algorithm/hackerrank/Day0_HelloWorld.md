@@ -1,5 +1,6 @@
 ---
 title: Day0 Hello World
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-15 00:01:34
 In this challenge, we review some basic concepts that will get you started with this series. You will need to use the same (or similar) syntax to read input and write output in challenges throughout HackerRank. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -24,7 +26,6 @@ You've got this!
 
 **Note**: The instructions are Java-based, but we support submissions in many popular languages. You can switch languages using the drop-down menu above your editor, and the **InputString** variable may be written differently depending on the best-practice conventions of your submission language.
 
-<!-- more -->
 <br/>
 
 ## Input Format

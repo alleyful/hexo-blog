@@ -1,5 +1,6 @@
 ---
 title: Day24 More Linked Lists
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank

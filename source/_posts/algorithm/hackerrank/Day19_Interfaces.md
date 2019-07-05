@@ -1,5 +1,6 @@
 ---
 title: Day19 Interfaces
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 21:53:20
 Today, we're learning about Interfaces. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -22,7 +24,6 @@ The AdvancedArithmetic interface and the method declaration for the abstract div
 
 Complete the implementation of Calculator class, which implements the AdvancedArithmetic interface. The implementation for the divisorSum(n) method must return the sum of all divisors of **n**.
 
-<!-- more -->
 <br/>
 
 ## Input Format

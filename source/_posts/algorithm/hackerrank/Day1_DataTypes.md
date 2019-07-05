@@ -1,5 +1,6 @@
 ---
 title: Day1 Data Types
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-15 01:01:34
 Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -30,7 +32,6 @@ Complete the code in the editor below. The variables **i**, **d**, and **s** are
 
 **Note**: If you are using a language that doesn't support using **+** for string concatenation (e.g.: C), you can just print one variable immediately following the other on the same line. The string provided in your editor must be printed first, immediately followed by the string you read as input.
 
-<!-- more -->
 <br/>
 
 ## Input Format

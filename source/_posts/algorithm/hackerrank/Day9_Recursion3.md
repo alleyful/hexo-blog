@@ -1,5 +1,6 @@
 ---
 title: Day9 Recursion 3
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -19,6 +20,7 @@ Today, we're learning and practicing an algorithmic concept called Recursion. Ch
 ![Recursive Method for Calculating Factorial](https://latex.codecogs.com/svg.latex?factorial(N)&space;=&space;\begin{cases}&space;1&space;&&space;\text{&space;}&space;N\leq&space;1&space;\\&space;N&space;\times&space;factorial(N&space;-&space;1)&space;&&space;\text{}&space;otherwise&space;\end{cases})
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -26,7 +28,6 @@ Write a factorial function that takes a positive integer, **N** as a parameter a
 
 **Note:** If you fail to use recursion or fail to name your recursive function factorial or Factorial, you will get a score of **0**.
 
-<!-- more -->
 <br/>
 
 ## Input Format

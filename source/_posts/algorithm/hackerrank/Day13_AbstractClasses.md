@@ -1,5 +1,6 @@
 ---
 title: Day13 Abstract Classes
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -15,6 +16,7 @@ date: 2019-06-16 19:20:34
 Today, we're taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to the few languages that use this construct. Check out the Tutorial tab for learning materials and an instructional video!
 
 <br/>
+<!-- more -->
 
 ## Task
 
@@ -34,7 +36,6 @@ Given a Book class and a Solution class, write a MyBook class that does the foll
 
 **Note:** Because these classes are being written in the same file, you must not use an access modifier (e.g.: **public**) when declaring MyBook or your code will not execute.
 
-<!-- more -->
 <br/>
 
 ## Input Format

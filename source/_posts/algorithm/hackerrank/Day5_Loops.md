@@ -1,5 +1,6 @@
 ---
 title: Day5 Loops
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -20,8 +21,8 @@ In this challenge, we're going to use loops to help us do some simple math. Chec
 
 Given an integer, **n**, print its first **10** multiples. Each multiple **n x i** (where **1 <= i <= 10**) should be printed on a new line in the form: n x i = result.
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 

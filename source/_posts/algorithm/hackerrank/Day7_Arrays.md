@@ -1,5 +1,6 @@
 ---
 title: Day7 Arrays
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -20,8 +21,8 @@ Today, we're learning about the Array data structure. Check out the Tutorial tab
 
 Given an array, **A**, of **N** integers, print **A**'s elements in reverse order as a single line of space-separated numbers.
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 

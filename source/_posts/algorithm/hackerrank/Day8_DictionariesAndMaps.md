@@ -1,5 +1,6 @@
 ---
 title: Day8 Dictionaries and Maps
+thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
 - HackerRank
@@ -22,8 +23,8 @@ Given **n** names and phone numbers, assemble a phone book that maps friends' na
 
 **Note:** Your phone book should be a Dictionary/Map/HashMap data structure.
 
-<!-- more -->
 <br/>
+<!-- more -->
 
 ## Input Format
 
