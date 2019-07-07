@@ -205,9 +205,9 @@ deploy:
 
 ### hexo deploy
 
-1. deploy를 하기 위해서 `npm install hexo-deploy-git --save` 플러그인을 먼저 설치해 주세요.
+1. deploy를 하기 위해서 `hexo-deploy-git` 플러그인을 먼저 설치해 주세요.
 
-{% gdemo_terminal 'hexo-deploy-git' '70px' 'zsh' '500' '$' 'demo-teriminal7' %}
+{% gdemo_terminal 'npm install hexo-deploy-git --save' '70px' 'zsh' '500' '$' 'demo-teriminal7' %}
 {% endgdemo_terminal %}	<br/>
 
 {% gdemo_terminal 'hexo deploy' '70px' 'zsh' '500' '$' 'demo-teriminal8' %}
