@@ -1,5 +1,5 @@
 ---
-title: Time Conversion
+title: Grading Students
 thumbnail: images/gallery/thumbnails/hackerrank.jpg
 categories:
 - Algorithm
