@@ -342,7 +342,7 @@ class ObjectUtilities {
     - 1.3 Object Destructuring
     - 1.4 Spread Operator
     - 1.5 Classes
-- 강의노트: [Day1 Note](/2019/08/27/develop/react/react-challenge-day1/)
+- 강의노트: [Note](https://github.com/alleyful/nomflix)
 - 오늘의 과제: [Day1 Question](https://codesandbox.io/s/day-one-blueprint-fdmk3)
 - 제출: [Day1 Answer](https://codesandbox.io/s/day-one-blueprint-hrvg2)
 - 정답: [Day1 Correct](https://codesandbox.io/s/day-one-solution-qsule)
