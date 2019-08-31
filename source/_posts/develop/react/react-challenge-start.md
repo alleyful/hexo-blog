@@ -1,5 +1,5 @@
 ---
-title: ReactJS Challenge - 시작하기
+title: NOMADCODERS ReactJS Challenge - 시작하기
 thumbnail: images/gallery/thumbnails/react.jpg
 categories:
   - develop

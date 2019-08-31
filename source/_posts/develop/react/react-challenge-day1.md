@@ -1,5 +1,5 @@
 ---
-title: ReactJS Challenge - Day1
+title: NOMADCODERS ReactJS Challenge - Day1
 toc: true
 thumbnail: images/gallery/thumbnails/react.jpg
 categories:
@@ -18,7 +18,7 @@ date: 2019-08-30 00:48:44
 
 <br/>
 
-[[멤버십] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
+[[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
 - 1.1 Arrow Functions
 - 1.2 Template Literals
 - 1.3 Object Destructuring
