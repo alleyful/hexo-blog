@@ -338,7 +338,7 @@ class ObjectUtilities {
 <br/>
 
 ## Day1 정리
-- 오늘의 강의
+- 오늘의 강의 : [[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
     - 1.1 Arrow Functions
     - 1.2 Template Literals
     - 1.3 Object Destructuring

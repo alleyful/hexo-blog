@@ -318,8 +318,8 @@ export default () => {
 
 <br/>
 
-### Day3
-- 오늘의 강의
+## Day3 정리
+- 오늘의 강의 : [[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
     - 2.1 React Router Part One
     - 2.2 React Router Part Two
 - 강의노트: [Day3 Note](https://github.com/alleyful/nomflix)

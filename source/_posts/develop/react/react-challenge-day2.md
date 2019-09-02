@@ -649,8 +649,8 @@ class ArrayUtilities {
 
 <br/>
 
-### Day2
-- 오늘의 강의
+## Day2 정리
+- 오늘의 강의 : [[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
     - 1.6 Array.map
     - 1.7 Array.filter
     - 1.8 .forEach .includes .push
