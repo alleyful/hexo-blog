@@ -352,7 +352,7 @@ export default withRouter(({ location: { pathname } }) => (
     - 3.2 CSS in React part Three
     - 3.3 GlobalStyles and Header
     - 3.4 Location Aware Header
-- 강의노트: [Day4 Note](./note/day4.md)
+- 강의노트: [Day4 Note](https://github.com/alleyful/nomflix)
 - 오늘의 과제: [Day4 Question](https://codesandbox.io/s/day-four-boilerplate-jxch9)
 - 제출: [Day4 Answer](https://codesandbox.io/s/day-four-boilerplate-tddjh)
 - 정답: [Day4 Current](https://codesandbox.io/s/day-four-solution-3j7gi)
