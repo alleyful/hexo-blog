@@ -9,8 +9,6 @@ tags:
   - Algorithm
   - Programmers
   - 프로그래머스
-  - 정렬
-  - sort
 date: 2019-09-15 00:03:19
 ---
 
