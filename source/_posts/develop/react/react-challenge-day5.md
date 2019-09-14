@@ -21,7 +21,7 @@ date: 2019-09-13 20:10:29
 
 <br/>
 
-[[노마드 코] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)   
+[[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)   
 `4 Networking`
 - 4.0 Introduction to The Movie DB API 
 - 4.1 Sexy Networking with Axios Instances 
