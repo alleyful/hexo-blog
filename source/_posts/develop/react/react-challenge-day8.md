@@ -255,7 +255,7 @@ Documentation: `https://api.coinpaprika.com/?ref=public-apis#operation/getCoinBy
 
 <br/>
 
-### Day8 ~ 9 (2일간 진행되는 Challenges)
+## Day8 ~ 9 (2일간 진행되는 Challenges)
 - 오늘의 강의
     - 6.8 Detail Container part One
     - 6.9 Detail Container part Two
