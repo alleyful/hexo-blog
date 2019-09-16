@@ -4,7 +4,8 @@ toc: true
 thumbnail: images/gallery/thumbnails/react.jpg
 categories:
   - develop
-  - react
+  - log
+  - react-challenge
 tags:
   - react
   - challenge

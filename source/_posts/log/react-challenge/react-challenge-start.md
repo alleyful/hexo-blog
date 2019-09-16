@@ -3,7 +3,8 @@ title: NOMADCODERS ReactJS Challenge - 시작하기
 thumbnail: images/gallery/thumbnails/react.jpg
 categories:
   - develop
-  - react
+  - log
+  - react-challenge
 tags:
   - react
   - challenge
