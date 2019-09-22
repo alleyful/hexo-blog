@@ -1,5 +1,5 @@
 ---
-title: NOMADCODERS Youtube Challenge - Day1 of 42
+title: NOMADCODERS Youtube Challenge - Day2 of 42
 thumbnail: images/gallery/thumbnails/youtubeChallenge.png
 categories:
   - develop
