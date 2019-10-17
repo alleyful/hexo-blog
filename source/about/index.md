@@ -4,21 +4,22 @@ date: 2019-06-17 12:49:34
 ---
 <br/>
 
-## Ju Young Kim 
-'Alley'라고 불리는게 더 익숙한 Front-End Developer 입니다.
+<center><img src="/images/profile.png" width="150px"/></center>
+
+> 안녕하세요!
+  저의 꿈은 '개발자 할머니' 입니다.
+  저의 꿈을 이루기 위해 '새로운 기술'에 굴하지 않고 열심히 노력하고 있습니다.
 
 <br/>
 
 ## Experience
+5년차(마크업 3년, 프론트엔드 2년)  프론트엔드 개발자 입니다. 
+최근 약 2년동안 React 기반의 서비스를 구축 및 운영 경험이 있습니다. 
+또한 이전의 다양한 마크업 개발 경험이 현재 프론트 개발에 많은 도움이 되고 있습니다.
+[사용기술] Javascript(es6+), React, Redux, webpack, gulp, node, RESTful API, Javascript(es6+), React, Redux, git, fetch, Sass
+[개발환경] OS X, intelliJ, jira, git, jenkins, swagger, zeplin
 
-### 스냅스 
-
-- Front-End Developer
-- 스냅스 및 오프린트미의 서비스에 관련된 Front-End 개발에 참여하고 있습니다.
-	- [스냅스](https://www.snaps.com/) - PC, MOBILE, APP, GLOBAL(JPN)
-	- [오프린트미](https://www.ohprint.me/) - PC, MOBILE, APP
-- React, Redux, Sass, Gulp, Webpack, GitLap
-
+https://github.com/alleyful
 
 <br/>
 
