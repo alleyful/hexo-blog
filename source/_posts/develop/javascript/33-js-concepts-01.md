@@ -1,5 +1,5 @@
 ---
-title: 자바스크립트 개발자라면 알아야하는 핵심 컨셉 33 #1 ~ #5
+title: 자바스크립트 개발자라면 알아야하는 핵심 컨셉 33 (1~5)
 thumbnail: images/gallery/thumbnails/javascript.png
 categories:
   - develop

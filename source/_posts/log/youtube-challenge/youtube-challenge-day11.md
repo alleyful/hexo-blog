@@ -1,5 +1,5 @@
 ---
-title: NOMADCODERS Youtube Challenge - Day11 of 42
+title: NOMADCODERS Youtube Challenge - Day11~12 of 42
 thumbnail: images/gallery/thumbnails/youtubeChallenge.png
 categories:
   - develop
