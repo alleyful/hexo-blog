@@ -1,6 +1,6 @@
 ---
 title: NOMADCODERS Youtube Challenge - Day4 of 42
-thumbnail: images/gallery/thumbnails/youtubeChallenge.png
+thumbnail: images/gallery/thumbnails/youtubeChallenge.jpg
 categories:
   - develop
   - log

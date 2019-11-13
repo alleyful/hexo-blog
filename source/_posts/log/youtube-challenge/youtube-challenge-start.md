@@ -1,6 +1,6 @@
 ---
 title: NOMADCODERS Youtube Challenge - 시작하기
-thumbnail: images/gallery/thumbnails/youtubeChallenge.png
+thumbnail: images/gallery/thumbnails/youtubeChallenge.jpg
 categories:
   - develop
   - log
