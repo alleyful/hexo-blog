@@ -15,12 +15,10 @@ tags:
 date: 2019-10-24 21:37:12
 ---
 
-
-
 > 오늘의 강의: 없습니다.  
-  오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
-  이번 챌린지는 1일간 진행되는 챌린지 입니다.
- 
+>  오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
+>  이번 챌린지는 1일간 진행되는 챌린지 입니다.
+
 <br/>
 <!-- more -->
 
@@ -28,7 +26,9 @@ date: 2019-10-24 21:37:12
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 [Day12 템플릿](https://codesandbox.io/s/day-six-solution-6n2q7)
 
 Take the boilerplate and turn refactor it to use hooks 100%
@@ -161,3 +161,4 @@ export default () => {
 `correct`
 [Day12 Currect](https://codesandbox.io/s/day-eight-solution-0210c)
 
+-->

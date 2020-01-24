@@ -18,8 +18,6 @@ tags:
 date: 2019-10-26 23:27:16
 ---
 
-
-
 > This challenge is based on videos #2.18 to #2.25:
 
 - 2일간 시청하는 강의: #2.18 to #2.25
@@ -30,15 +28,15 @@ date: 2019-10-26 23:27:16
 [[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
 `#2 ExpressJS`
-- 2.18 Search Controller 
-- 2.19 Join : Log In HTML 
-- 2.20 Change Profile HTML 
-- 2.21 Home Controller 
-- 2.22 Home Controller part Two 
-- 2.23 Join Controller 
-- 2.24 Log In and User Profile Controller 
-- 2.25 More Controlers 
- 
+
+- 2.18 Search Controller
+- 2.19 Join : Log In HTML
+- 2.20 Change Profile HTML
+- 2.21 Home Controller
+- 2.22 Home Controller part Two
+- 2.23 Join Controller
+- 2.24 Log In and User Profile Controller
+- 2.25 More Controlers
 
 <br/>
 <!-- more -->
@@ -55,21 +53,23 @@ date: 2019-10-26 23:27:16
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 
 ### 코딩챌린지 소개
-    
+
 - 샌드박스 안에 db.js 라는 이름의 파일이 있습니다. 그 파일은 영화의 DB를 시뮬레이트 합니다. 아래와 같은 4개 함수를 export 합니다.
 - 샌드박스 안에 movieController.js 그리고 movieRouter.js 가 있으며, 이는 3개의 routes 와 3개의 controllers 를 갖고있습니다.
 - Controllers와 Routers를 추가하거나 제거해서는 안됩니다. 단 3가지만으로 아래 챌린지를 수행할 수 있어요.
- 
+
 ```
 getMovies,
 getMovieById,
 getMovieByMinimumRating,
 getMovieByMinimumYear
 ```
-    
+
 `함수 4개에 대한 설명은 아래와 같습니다.`
 - getMovies returns an array of movies, console.log the result to see the shape of the object.
 - getMovieById returns a movie object. It requires an ID as an argument and if no movie is found it returns undefined.
@@ -78,7 +78,7 @@ getMovieByMinimumYear
 
 <br/>
 
-This is the expected output:   
+This is the expected output:
 [![Video Label](http://img.youtube.com/vi/tE8QGg8aQDE/0.jpg)](https://youtu.be/tE8QGg8aQDE)
 
 <br/>
@@ -99,3 +99,5 @@ This is the expected output:
 - CodeSandbox 템플릿 : [Day11~12 Boilerplate](https://codesandbox.io/s/express-controller-blueprint-880to)
 - 제출 : [Day11~12 Homework](https://codesandbox.io/s/express-controller-blueprint-p0ibw)
 - 정답 : [Day11~12 Answer](https://codesandbox.io/s/day-11-12-solution-thmmm)
+
+-->

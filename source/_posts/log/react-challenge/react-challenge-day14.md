@@ -15,11 +15,10 @@ tags:
 date: 2019-10-28 23:15:49
 ---
 
-
 > 오늘의 강의: #6.11 ~ #7.1
-  오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
-  이번 챌린지는 3일간 진행되는 챌린지 입니다.
- 
+> 오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
+>  이번 챌린지는 3일간 진행되는 챌린지 입니다.
+
 <br/>
 <!-- more -->
 
@@ -27,7 +26,9 @@ date: 2019-10-28 23:15:49
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 Challengr 완료 후 netlify 링크를 제출해 주세요.
 
 ### Requirements:
@@ -49,3 +50,4 @@ Challengr 완료 후 netlify 링크를 제출해 주세요.
 [alleyful.netlify.com](https://alleyful.netlify.com/)
 
 
+-->

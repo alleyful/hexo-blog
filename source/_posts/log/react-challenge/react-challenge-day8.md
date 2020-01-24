@@ -16,15 +16,14 @@ tags:
 date: 2019-09-15 00:10:51
 ---
 
-
 > 오늘의 강의: #6.8 ~ #6.9  
-  오늘의 과제: 위의 강의들을 시청하신 후, 아래 코드 챌린지를 제출하면 됩니다.  
-  이번 챌린지는 2일간 진행되는 챌린지 입니다.
-
+>  오늘의 과제: 위의 강의들을 시청하신 후, 아래 코드 챌린지를 제출하면 됩니다.  
+>  이번 챌린지는 2일간 진행되는 챌린지 입니다.
 
 <br/>
 
-[[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)   
+[[노마드 코더] 초보를 위한 React JS](https://academy.nomadcoders.co/courses/436641/lectures/8467057)
+
 - 6.8 Detail Container part One
 - 6.9 Detail Container part Two
 
@@ -44,14 +43,15 @@ my-app
 └── src
     └── Screen
         └── Coin
-            ├── CoinContainer.js   
-            ├── CoinPresenter.js   
+            ├── CoinContainer.js
+            ├── CoinPresenter.js
             └── index.js
 ```
 
 <br/>
 
 ### index.js
+
 ```jsx harmony
 import CoinContainer from "./CoinContainer";
 export default CoinContainer;
@@ -60,6 +60,7 @@ export default CoinContainer;
 <br/>
 
 ### CoinContainer.js
+
 ```jsx harmony
 import React from "react";
 import CoinPresenter from "./CoinPresenter";
@@ -100,6 +101,7 @@ export default class extends React.Component {
 <br/>
 
 ### CoinPresenter.js
+
 ```jsx harmony
 import React from "react";
 import styled from "styled-components";
@@ -204,7 +206,9 @@ export default CoinPresenter;
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 [Day8 템플릿](https://codesandbox.io/s/day-five-solution-xoocs)
 
 [![Video Label](http://img.youtube.com/vi/A7Zn8o-JL5Q/0.jpg)](https://youtu.be/A7Zn8o-JL5Q)
@@ -219,7 +223,7 @@ Extend the Coin Explorer to create a detail view of each coin. You have to make 
 
 Documentation: `https://api.coinpaprika.com/?ref=public-apis#operation/getCoinById`
 
-- **Coin Markets & Coin Exchanges**: These two **ROUTES** should be inside of the Coin Detail. 
+- **Coin Markets & Coin Exchanges**: These two **ROUTES** should be inside of the Coin Detail.
 
 <br/>
 
@@ -233,7 +237,7 @@ Documentation: `https://api.coinpaprika.com/?ref=public-apis#operation/getCoinBy
 - All AJAX requests MUST be made with an **AXIOS INSTANCE** ('axios.create')
 - Containers MUST NEVER call Axios directly, they should call the instance.
 - Use a **Loader** Component.
-- Coin Markets and Coin Exchanges should be **ROUTES**. 
+- Coin Markets and Coin Exchanges should be **ROUTES**.
 
 
 <br/>
@@ -263,9 +267,11 @@ Documentation: `https://api.coinpaprika.com/?ref=public-apis#operation/getCoinBy
 - 강의노트: [Day8 Note](https://github.com/alleyful/nomflix)
 - 오늘의 과제: [Day8 Question](https://codesandbox.io/s/day-five-solution-xoocs)
 - 제출: [Day8 Answer](https://codesandbox.io/s/day-five-solution-2wr12)
-- 정답: [Day8 Current](https://codesandbox.io/s/day-six-solution-6n2q7) 
-- 회고   
-    답을 알고보면 정말 간단히 풀리는 것을 많이 돌아돌아 겨우 풀어낸 것 같다. 아마 깊이 있게 알지 못하고 경험이 부족하기 때문이 아닐까 싶다. 
+- 정답: [Day8 Current](https://codesandbox.io/s/day-six-solution-6n2q7)
+- 회고
+    답을 알고보면 정말 간단히 풀리는 것을 많이 돌아돌아 겨우 풀어낸 것 같다. 아마 깊이 있게 알지 못하고 경험이 부족하기 때문이 아닐까 싶다.
     더욱더 많은 노력이 필요할 것 같다는 생각을 다시한번 해본다. react-router에 대해 다시한번 알아볼 수 있는 기회가 되어 더욱 좋은 시간이었다.
 
 <br/>
+
+-->

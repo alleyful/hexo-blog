@@ -16,22 +16,22 @@ tags:
 date: 2019-10-19 22:30:52
 ---
 
-
-> 오늘의 강의: #1.0 ~ #2.9 (리액트 훅스 강의 관련 입니다)   
-  오늘의 과제: 위의 강의들을 시청하신 후, 아래 코드 챌린지를 제출하면 됩니다.  
-  이번 챌린지는 2일간 진행되는 챌린지 입니다.
-
+> 오늘의 강의: #1.0 ~ #2.9 (리액트 훅스 강의 관련 입니다)  
+>  오늘의 과제: 위의 강의들을 시청하신 후, 아래 코드 챌린지를 제출하면 됩니다.  
+>  이번 챌린지는 2일간 진행되는 챌린지 입니다.
 
 <br/>
 
-[[노마드 코더] 실전형 리액트 Hooks 10개](https://academy.nomadcoders.co/p/introduction-to-react-hooks)   
+[[노마드 코더] 실전형 리액트 Hooks 10개](https://academy.nomadcoders.co/p/introduction-to-react-hooks)  
 `1 useState`
+
 - 1.0 Introduction to useState
 - 1.1 useInput
 - 1.2 useInput part Two
 - 1.3 useTabs
 
 `2 useEffect`
+
 - 2.0 Introduction to useEffect
 - 2.1 useTitle
 - 2.2 useClick
@@ -42,7 +42,7 @@ date: 2019-10-19 22:30:52
 - 2.7 useNotification
 - 2.8 useAxios
 - 2.9 Conclusions
- 
+
 <br/>
 <!-- more -->
 
@@ -54,20 +54,22 @@ date: 2019-10-19 22:30:52
 
 <br/>
 
-
 ## React Hooks
 
 <br/>
 
 ### Hook 소개
+
 Hooks 는 리액트 v16.8 에 새로 도입된 기능으로서, 함수형 컴포넌트에서도 상태 관리를 할 수 있는 useState, 그리고 렌더링 직후 작업을 설정하는 useEffect 등의 기능등을 제공하여 기존의 함수형 컴포넌트에서 할 수 없었던 다양한 작업을 할 수 있게 해줍니다.
 
-#### `소개영상`  
+#### `소개영상`
+
 React Conf 2018에서 Sophie Alpert와 Dan Abramov는 Hook를 소개했었습니다. 이어서 Ryan Florence가 Hook를 사용하여 어떻게 애플리케이션을 리팩토링 할 것인지 보여주었습니다. 아래 영상에서 확인해보세요.
 [![Video Label](http://img.youtube.com/vi/xsSnOQynTHs/0.jpg)](https://youtu.be/xsSnOQynTHs)
 <br/>
 
 #### `동기`
+
 1. 상태와 관련된 로직을 재사용하기 어렵습니다.
 2. 로직과 관련이 없는 생명주기 메서드 등의 사용으로 컴포넌트가 복잡해 집니다.
 3. class의 this 사용이 의도치 않은 문제를 일으킵니다.
@@ -77,10 +79,11 @@ React Conf 2018에서 Sophie Alpert와 Dan Abramov는 Hook를 소개했었습니
 <br/>
 
 ### useState
+
 useState 는 가장 기본적인 Hook 으로서, 함수형 컴포넌트에서도 가변적인 상태를 지니고 있을 수 있게 해줍니다. 만약에 함수형 컴포넌트에서 상태를 관리해야 되는 일이 발생한다면 이 Hook 을 사용하시면 됩니다.
 
 ```jsx harmony
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Counter = () => {
   const [value, setValue] = useState(0);
@@ -99,6 +102,7 @@ const Counter = () => {
 <br/>
 
 ### useEffect
+
 useEffect 는 리액트 컴포넌트가 렌더링 될 때마다 특정 작업을 수행하도록 설정 할 수 있는 Hook 입니다. 클래스형 컴포넌트의 componentDidMount 와 componentDidUpdate 를 합친 형태로 보아도 무방합니다.
 
 ```jsx harmony
@@ -134,22 +138,26 @@ export default Info;
 <br/>
 
 #### 마운트 될 때만 실행하고 싶을 때
+
 만약 useEffect 에서 설정한 함수가 컴포넌트가 화면에 가장 처음 렌더링 될 때만 실행되고 업데이트 할 경우에는 실행 할 필요가 없는 경우엔 함수의 두번째 파라미터로 비어있는 배열을 넣어주시면 됩니다.
+
 ```javascript
 useEffect(() => {
-    console.log('마운트 될 때만 실행됩니다.');
-  }, []);
+  console.log("마운트 될 때만 실행됩니다.");
+}, []);
 ```
 
 <br/>
 
 #### 특정 값이 업데이트 될 때만 실행하고 싶을 때
+
 useEffect 를 사용 할 때 특정 값이 변경이 될 때만 호출하게 하고 싶을 경우도 있을 것입니다.
+
 ```jsx harmony
 //class 형
 componentDidUpdate(prevProps, prevState) {
   if (prevProps.value !== this.props.value) {
-    doSomething();  
+    doSomething();
   }
 }
 
@@ -162,32 +170,33 @@ useEffect(() => {
 <br/>
 
 #### cleanup
+
 useEffect 는 기본적으로 렌더링 되고난 직후마다 실행되며, 두번째 파라미터 배열에 무엇을 넣느냐에 따라 실행되는 조건이 달라집니다.
 
 만약 컴포넌트가 언마운트되기 전이나, 업데이트 되기 직전에 어떠한 작업을 수행하고 싶다면 useEffect 에서 뒷정리(cleanup) 함수를 반환해주어야 합니다.
 
 ```javascript
 useEffect(() => {
-    console.log('effect');
+  console.log("effect");
+  console.log(name);
+  return () => {
+    console.log("cleanup");
     console.log(name);
-    return () => {
-      console.log('cleanup');
-      console.log(name);
-    };
-  });
+  };
+});
 ```
 
 만약에, 오직 언마운트 될 때만 뒷정리 함수를 호출하고 싶으시다면 useEffect 함수의 두번째 파라미터에 비어있는 배열을 넣으시면 됩니다.
 
 ```javascript
 useEffect(() => {
-    console.log('effect');
+  console.log("effect");
+  console.log(name);
+  return () => {
+    console.log("cleanup");
     console.log(name);
-    return () => {
-      console.log('cleanup');
-      console.log(name);
-    };
-  }, []);
+  };
+}, []);
 ```
 
 <br/>
@@ -195,16 +204,18 @@ useEffect(() => {
 <br/>
 
 ### useContext
-이 Hook 을 사용하면 함수형 컴포넌트에서 Context 를 보다 더 쉽게 사용 할 수 있습니다.
-```jsx harmony
-import React, { createContext, useContext } from 'react';
 
-const ThemeContext = createContext('black');
+이 Hook 을 사용하면 함수형 컴포넌트에서 Context 를 보다 더 쉽게 사용 할 수 있습니다.
+
+```jsx harmony
+import React, { createContext, useContext } from "react";
+
+const ThemeContext = createContext("black");
 const ContextSample = () => {
   const theme = useContext(ThemeContext);
   const style = {
-    width: '24px',
-    height: '24px',
+    width: "24px",
+    height: "24px",
     background: theme
   };
   return <div style={style} />;
@@ -218,6 +229,7 @@ export default ContextSample;
 <br/>
 
 ### UseReducer
+
 useReducer 는 useState 보다 컴포넌트에서 더 다양한 상황에 따라 다양한 상태를 다른 값으로 업데이트해주고 싶을 때 사용하는 Hook 입니다.
 
 리듀서는 현재 상태와, 업데이트를 위해 필요한 정보를 담은 액션(action) 값을 전달 받아 새로운 상태를 반환하는 함수입니다. 리듀서 함수에서 새로운 상태를 만들 때는 꼭 불변성을 지켜주어야 합니다.
@@ -242,15 +254,16 @@ Redux 에서는 액션 객체에는 어떤 액션인지 알려주는 type 필드
 <br/>
 
 #### 카운터 구현하기
+
 ```jsx harmony
-import React, { useReducer } from 'react';
+import React, { useReducer } from "react";
 
 function reducer(state, action) {
   // action.type 에 따라 다른 작업 수행
   switch (action.type) {
-    case 'INCREMENT':
+    case "INCREMENT":
       return { value: state.value + 1 };
-    case 'DECREMENT':
+    case "DECREMENT":
       return { value: state.value - 1 };
     default:
       // 아무것도 해당되지 않을 때 기존 상태 반환
@@ -266,8 +279,8 @@ const Counter = () => {
       <p>
         현재 카운터 값은 <b>{state.value}</b> 입니다.
       </p>
-      <button onClick={() => dispatch({ type: 'INCREMENT' })}>+1</button>
-      <button onClick={() => dispatch({ type: 'DECREMENT' })}>-1</button>
+      <button onClick={() => dispatch({ type: "INCREMENT" })}>+1</button>
+      <button onClick={() => dispatch({ type: "DECREMENT" })}>-1</button>
     </div>
   );
 };
@@ -282,9 +295,11 @@ useReducer 을 사용했을 때의 가장 큰 장점은 컴포넌트 업데이�
 <br/>
 
 #### 인풋 상태 관리하기
+
 기존에는 인풋이 여러 개여서 useState 를 여러번 사용했는데요, useReducer 를 사용한다면 우리가 기존에 클래스형 컴포넌트에서 input 태그에 name 값을 할당하고 e.target.name 을 참조하여 setState 를 해준 것과 유사한 방식으로 작업을 처리 할 수 있습니다.
+
 ```jsx harmony
-import React, { useReducer } from 'react';
+import React, { useReducer } from "react";
 
 function reducer(state, action) {
   return {
@@ -295,8 +310,8 @@ function reducer(state, action) {
 
 const Info = () => {
   const [state, dispatch] = useReducer(reducer, {
-    name: '',
-    nickname: ''
+    name: "",
+    nickname: ""
   });
   const { name, nickname } = state;
   const onChange = e => {
@@ -324,6 +339,7 @@ const Info = () => {
 
 export default Info;
 ```
+
 useReducer 에서의 액션은 그 어떤 값이 되어도 됩니다. 그래서 이번에 우리는 이벤트 객체가 지니고있는 e.target 값 자체를 액션 값으로 사용하였습니다.
 
 이런 식으로 인풋을 관리하면, 아무리 인풋의 개수가 많아져도 코드를 짧고 깔끔하기 유지 할 수 있습니다.
@@ -333,13 +349,14 @@ useReducer 에서의 액션은 그 어떤 값이 되어도 됩니다. 그래서 
 <br/>
 
 ### useMemo
+
 useMemo 를 사용하면 함수형 컴포넌트 내부에서 발생하는 연산을 최적화 할 수 있습니다. 먼저 리스트에 숫자들을 추가하면 해당 숫자들의 평균을 나타내는 함수형 컴포넌트를 작성해봅시다.
 
 ```jsx harmony
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const getAverage = numbers => {
-  console.log('평균값 계산중..');
+  console.log("평균값 계산중..");
   if (numbers.length === 0) return 0;
   const sum = numbers.reduce((a, b) => a + b);
   return sum / numbers.length;
@@ -347,7 +364,7 @@ const getAverage = numbers => {
 
 const Average = () => {
   const [list, setList] = useState([]);
-  const [number, setNumber] = useState('');
+  const [number, setNumber] = useState("");
 
   const onChange = e => {
     setNumber(e.target.value);
@@ -355,7 +372,7 @@ const Average = () => {
   const onInsert = e => {
     const nextList = list.concat(parseInt(number));
     setList(nextList);
-    setNumber('');
+    setNumber("");
   };
 
   return (
@@ -382,10 +399,10 @@ export default Average;
 useMemo Hook 을 사용하면 이러한 작업을 최적화 할 수 있습니다. 렌더링 하는 과정에서 특정 값이 바뀌었을 때만 연산을 실행하고 만약에 원하는 값이 바뀐 것이 아니라면 이전에 연산했던 결과를 다시 사용하는 방식입니다.
 
 ```jsx harmony
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo } from "react";
 
 const getAverage = numbers => {
-  console.log('평균값 계산중..');
+  console.log("평균값 계산중..");
   if (numbers.length === 0) return 0;
   const sum = numbers.reduce((a, b) => a + b);
   return sum / numbers.length;
@@ -393,7 +410,7 @@ const getAverage = numbers => {
 
 const Average = () => {
   const [list, setList] = useState([]);
-  const [number, setNumber] = useState('');
+  const [number, setNumber] = useState("");
 
   const onChange = e => {
     setNumber(e.target.value);
@@ -401,7 +418,7 @@ const Average = () => {
   const onInsert = e => {
     const nextList = list.concat(parseInt(number));
     setList(nextList);
-    setNumber('');
+    setNumber("");
   };
 
   const avg = useMemo(() => getAverage(list), [list]);
@@ -430,12 +447,14 @@ export default Average;
 <br/>
 
 ### useCallback
+
 useCallback 은 useMemo와 상당히 비슷한 함수입니다. 주로 렌더링 성능을 최적화해야 하는 상황에서 사용하는데요, 이 Hook을 사용하면 이벤트 핸들러 함수를 필요할 때만 생성 할 수 있습니다.
+
 ```jsx harmony
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback } from "react";
 
 const getAverage = numbers => {
-  console.log('평균값 계산중..');
+  console.log("평균값 계산중..");
   if (numbers.length === 0) return 0;
   const sum = numbers.reduce((a, b) => a + b);
   return sum / numbers.length;
@@ -443,7 +462,7 @@ const getAverage = numbers => {
 
 const Average = () => {
   const [list, setList] = useState([]);
-  const [number, setNumber] = useState('');
+  const [number, setNumber] = useState("");
 
   const onChange = useCallback(e => {
     setNumber(e.target.value);
@@ -452,7 +471,7 @@ const Average = () => {
     e => {
       const nextList = list.concat(parseInt(number));
       setList(nextList);
-      setNumber('');
+      setNumber("");
     },
     [number, list]
   ); // number 혹은 list 가 바뀌었을 때만 함수 생성
@@ -461,7 +480,7 @@ const Average = () => {
 
   return (
     <div>
-      <input value={number} onChange={onChange}  />
+      <input value={number} onChange={onChange} />
       <button onClick={onInsert}>등록</button>
       <ul>
         {list.map((value, index) => (
@@ -477,6 +496,7 @@ const Average = () => {
 
 export default Average;
 ```
+
 useCallback 의 첫번째 파라미터에는 우리가 생성해주고 싶은 함수를 넣어주고, 두번째 파라미터에는 배열을 넣어주면 되는데 이 배열에는 어떤 값이 바뀌었을 때 함수를 새로 생성해주어야 하는지 명시해주어야 합니다.
 
 만약에 onChange 처럼 비어있는 배열을 넣게 되면 컴포넌트가 렌더링 될 때 단 한번만 함수가 생성되며, onInsert 처럼 배열 안에 number 와 list 를 넣게 되면 인풋 내용이 바뀌거나 새로운 항목이 추가 될 때마다 함수가 생성됩니다.
@@ -486,18 +506,20 @@ useCallback 의 첫번째 파라미터에는 우리가 생성해주고 싶은 �
 <br/>
 
 참고로 다음 두 코드는 완벽히 똑같은 코드입니다.
+
 ```javascript
 useCallback(() => {
-  console.log('hello world!');
-}, [])
+  console.log("hello world!");
+}, []);
 
 useMemo(() => {
   const fn = () => {
-    console.log('hello world!');
+    console.log("hello world!");
   };
   return fn;
-}, [])
+}, []);
 ```
+
 useCallback 은 결국 useMemo 에서 함수를 반환하는 상황에서 더 편하게 사용 할 수 있는 Hook 입니다. 숫자, 문자열, 객체 처럼 일반 값을 재사용하기 위해서는 useMemo 를, 그리고 함수를 재사용 하기 위해서는 useCallback 을 사용하세요
 
 <br/>
@@ -505,12 +527,14 @@ useCallback 은 결국 useMemo 에서 함수를 반환하는 상황에서 더 �
 <br/>
 
 ### useRef
+
 useRef Hook 은 함수형 컴포넌트에서 ref 를 쉽게 사용 할 수 있게 해줍니다.
+
 ```jsx harmony
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef } from "react";
 
 const getAverage = numbers => {
-  console.log('평균값 계산중..');
+  console.log("평균값 계산중..");
   if (numbers.length === 0) return 0;
   const sum = numbers.reduce((a, b) => a + b);
   return sum / numbers.length;
@@ -518,7 +542,7 @@ const getAverage = numbers => {
 
 const Average = () => {
   const [list, setList] = useState([]);
-  const [number, setNumber] = useState('');
+  const [number, setNumber] = useState("");
   const inputEl = useRef(null);
 
   const onChange = useCallback(e => {
@@ -528,12 +552,11 @@ const Average = () => {
     e => {
       const nextList = list.concat(parseInt(number));
       setList(nextList);
-      setNumber('');
+      setNumber("");
       inputEl.current.focus();
     },
     [number, list]
   ); // number 혹은 list 가 바뀌었을 때만 함수 생성
-
 
   const avg = useMemo(() => getAverage(list), [list]);
 
@@ -555,30 +578,28 @@ const Average = () => {
 
 export default Average;
 ```
+
 useRef 를 사용하여 ref 를 설정하면, useRef 를 통해 만든 객체 안의 current 값이 실제 엘리먼트를 가르키게 됩니다.
 
 <br/>
 
 #### 로컬 변수 사용하기
+
 추가적으로, 컴포넌트 로컬 변수를 사용해야 할 때도 useRef 를 활용 할 수 있습니다. 여기서 로컬 변수라 함은, 렌더링이랑은 관계 없이 바뀔 수 있는 값을 의미합니다. 만약에 클래스 형태의 컴포넌트로 따지자면 다음과 같은 코드죠.
 
 ```jsx harmony
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class MyComponent extends Component {
-  id = 1
-  setId = (n) => {
+  id = 1;
+  setId = n => {
     this.id = n;
-  }
+  };
   printId = () => {
     console.log(this.id);
-  }
+  };
   render() {
-    return (
-      <div>
-        MyComponent
-      </div>
-    );
+    return <div>MyComponent</div>;
   }
 }
 
@@ -588,25 +609,22 @@ export default MyComponent;
 이러한 코드를 만약에 함수형 컴포넌트로 작성한다면 다음과 같이 할 수 있습니다.
 
 ```jsx harmony
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 
 const RefSample = () => {
   const id = useRef(1);
-  const setId = (n) => {
+  const setId = n => {
     id.current = n;
-  }
+  };
   const printId = () => {
     console.log(id.current);
-  }
-  return (
-    <div>
-      refsample
-    </div>
-  );
+  };
+  return <div>refsample</div>;
 };
 
 export default RefSample;
 ```
+
 주의 하실 점은, 이렇게 넣는 ref 안의 값은 바뀌어도 컴포넌트가 렌더링 되지 않는다는 점 입니다. 렌더링과 관련 되지 않은 값을 관리 할 때만 이러한 방식으로 코드를 작성해주세요.
 
 <br/>
@@ -614,6 +632,7 @@ export default RefSample;
 <br/>
 
 ### Reference
+
 - [REACT HOOK](https://ko.reactjs.org/docs/hooks-intro.html)
 - [리액트의 Hooks 완벽 정복하기](https://velog.io/@velopert/react-hooks)
 
@@ -623,7 +642,9 @@ export default RefSample;
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 [Day10 템플릿](https://codesandbox.io/s/day-seven-blueprint-xrfub)
 
 You will have to create the following hooks and use them all in one page:
@@ -750,7 +771,7 @@ const [isLocked, { lockScroll, unlockScroll }] = useLockScroll();
 <br/>
 
 ### Requirements:
-- Don't you dare give up! 
+- Don't you dare give up!
 - Make a page that uses all the hooks, like the one on the video.
 
 
@@ -1022,3 +1043,6 @@ ReactDOM.render(<App />, rootElement);
 
 `correct`
 [Day10 Currect](https://codesandbox.io/s/day-seven-solution-tvz5q)
+
+
+-->

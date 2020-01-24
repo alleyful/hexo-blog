@@ -15,11 +15,10 @@ tags:
 date: 2019-10-26 18:37:40
 ---
 
-
 > 오늘의 강의: 없습니다.  
-  오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
-  이번 챌린지는 1일간 진행되는 챌린지 입니다.
- 
+>  오늘의 과제: 아래 코드 챌린지를 제출하면 됩니다.  
+>  이번 챌린지는 1일간 진행되는 챌린지 입니다.
+
 <br/>
 <!-- more -->
 
@@ -27,7 +26,9 @@ date: 2019-10-26 18:37:40
 
 <br/>
 
-## Homework 
+<!--
+
+## Homework
 [Day13 템플릿](https://codesandbox.io/s/day-seven-blueprint-xrfub)
 
 Using everything that you know, create a page that calls an API with infinite scrolling.
@@ -37,9 +38,9 @@ It should behave like this:
 
 API Documentation: https://yts.lt/api#list_movies
 
-**Clues:**   
-This is how I would make the API file.   
-The URL would end up looking something like this:   
+**Clues:**
+This is how I would make the API file.
+The URL would end up looking something like this:
 https://yts.lt/api/v2/list_movies.json?page=1&limit=50
 
 <br/>
@@ -49,7 +50,7 @@ import axios from 'axios';
 
 const api = axios.create({baseURL: "https://tys.lt/api/v2"});
 
-export const getMovies = (page = 1) => 
+export const getMovies = (page = 1) =>
     api.get("/list_movies.json", {params: { page, limit: 50 } });
 ```
 
@@ -141,3 +142,5 @@ ReactDOM.render(<App />, rootElement);
 
 `correct`
 [Day13 Currect](https://codesandbox.io/s/day-nine-solution-6pwcl)
+
+-->
